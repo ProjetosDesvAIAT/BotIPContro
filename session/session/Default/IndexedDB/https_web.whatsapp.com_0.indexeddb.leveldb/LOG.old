@@ -1,16 +1,4 @@
-2024/10/10-21:02:10.819 622c Reusing MANIFEST C:\Users\Gordeus\OneDrive\Área de Trabalho\WhatsAppBotIP\session\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
-2024/10/10-21:02:10.821 622c Recovering log #81
-2024/10/10-21:02:11.110 622c Reusing old log C:\Users\Gordeus\OneDrive\Área de Trabalho\WhatsAppBotIP\session\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/000081.log 
-2024/10/10-21:02:13.914 622c Level-0 table #87: started
-2024/10/10-21:02:13.963 622c Level-0 table #87: 442944 bytes OK
-2024/10/10-21:02:13.965 622c Delete type=0 #81
-2024/10/10-21:02:13.967 622c Manual compaction at level-0 from '\x00!\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00"\x00\x00\x00' @ 0 : 0; will stop at (end)
-2024/10/10-21:02:18.104 7854 Compacting 1@1 + 2@2 files
-2024/10/10-21:02:18.389 7854 Generated table #88@1: 25880 keys, 2196722 bytes
-2024/10/10-21:02:18.757 7854 Generated table #89@1: 50976 keys, 2220709 bytes
-2024/10/10-21:02:18.771 7854 Generated table #90@1: 2339 keys, 49119 bytes
-2024/10/10-21:02:18.771 7854 Compacted 1@1 + 2@2 files => 4466550 bytes
-2024/10/10-21:02:18.772 7854 compacted to: files[ 0 0 3 0 0 0 0 ]
-2024/10/10-21:02:18.773 7854 Delete type=2 #83
-2024/10/10-21:02:18.773 7854 Delete type=2 #84
-2024/10/10-21:02:18.773 7854 Delete type=2 #87
+2024/10/11-10:21:30.296 6644 Reusing MANIFEST C:\Users\Gordeus\OneDrive\Área de Trabalho\WhatsAppBotIP\session\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/10/11-10:21:30.298 6644 Recovering log #128
+2024/10/11-10:21:30.347 6644 Reusing old log C:\Users\Gordeus\OneDrive\Área de Trabalho\WhatsAppBotIP\session\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/000128.log 
+2024/10/11-10:21:34.865 3df0 Manual compaction at level-0 from '\x00-\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00.\x00\x00\x00' @ 0 : 0; will stop at (end)
