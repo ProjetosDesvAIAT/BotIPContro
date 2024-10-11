@@ -1,4 +1,0 @@
-2024/10/11-10:21:30.296 6644 Reusing MANIFEST C:\Users\Gordeus\OneDrive\Área de Trabalho\WhatsAppBotIP\session\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
-2024/10/11-10:21:30.298 6644 Recovering log #128
-2024/10/11-10:21:30.347 6644 Reusing old log C:\Users\Gordeus\OneDrive\Área de Trabalho\WhatsAppBotIP\session\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/000128.log 
-2024/10/11-10:21:34.865 3df0 Manual compaction at level-0 from '\x00-\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00.\x00\x00\x00' @ 0 : 0; will stop at (end)
