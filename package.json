@@ -21,6 +21,8 @@
   },
   "homepage": "https://github.com/gordeusbraga/BotWhatsIPControl#readme",
   "dependencies": {
+    "puppeteer": "^23.5.3",
+    "puppeteer-core": "^23.5.3",
     "qrcode-terminal": "^0.12.0",
     "whatsapp-web.js": "^1.26.0"
   }
