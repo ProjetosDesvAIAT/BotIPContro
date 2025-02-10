@@ -62,7 +62,7 @@ client.on("ready", async () => {
         useroption[userId] = "main_menu";
       } else if (message.body == "3") {
         message.reply(
-          "👾Teachers Guide👾\n\nClick no teachers guide desejado:\n\nFundamental I: \n\nFundamental II: https://docs.google.com/spreadsheets/d/11Ew_zxPaPP88hdukJteznjMFfgFpkdIFZjzIs9r-lvo/edit?gid=662943470#gid=662943470"
+          "👾Teachers Guide👾\n\nClick no teachers guide desejado:\n\nFundamental I: https://docs.google.com/spreadsheets/d/13BtfbZHkhoOYkXJcDMLNP6uNx4MBc_GZ/edit?usp=sharing&ouid=101815314869275332344&rtpof=true&sd=true \n\nFundamental II: https://docs.google.com/spreadsheets/d/1Nw4Ro8U4xMDRsKQuAc6Io1i-026e0SG2/edit?usp=sharing&ouid=101815314869275332344&rtpof=true&sd=true \n\nEnsino Médio: https://docs.google.com/spreadsheets/d/1NwcEwLx82jWSSMSHEAoD1WCtiEvQDgOb/edit?usp=sharing&ouid=101815314869275332344&rtpof=true&sd=true"
         );
         message.reply(
           "👾Seja bem-vindo ao Bot IP!👾\n\n*Escolha a opcao desejada:*\n\n0 - Manutenção\n1 - Duvidas\n2 - Plataforma De Cursos\n3 - Teachers Guide\n4 - Instagram\n5 - Contato/Abrir Demanda\n6 - Consultar Demanda"
