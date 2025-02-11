@@ -8,18 +8,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gordeusbraga/BotWhatsIPControl.git"
+    "url": "git+https://github.com/ProjetosDesvAIAT/BotIPContro.git"
   },
   "keywords": [
     "bot",
     "whatsapp"
   ],
-  "author": "Matheus Braga (Gordeus)",
+  "author": "DesvAIAT",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/gordeusbraga/BotWhatsIPControl/issues"
+    "url": "https://github.com/ProjetosDesvAIAT/BotIPContro/issues"
   },
-  "homepage": "https://github.com/gordeusbraga/BotWhatsIPControl#readme",
+  "homepage": "https://github.com/ProjetosDesvAIAT/BotIPContro#readme",
   "dependencies": {
     "puppeteer": "^23.5.3",
     "puppeteer-core": "^23.5.3",
