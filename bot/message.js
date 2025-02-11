@@ -106,7 +106,7 @@ client.on("ready", async () => {
           `Sua demanda foi enviada com sucesso!\n\nNome: ${name}\nDemanda: ${demand}\nNúmero: ${number}\n Data: ${date}\nStatus: ${status} \nUnidade: ${unit}\n\n Em breve entraremos em contato!`
         );
         async function sendDatas() {
-          fetch("https://demadsapi-8lv3p.ondigitalocean.app/demands", {
+          fetch("https://bot-ip-contro.vercel.app/demands", {
             method: "POST",
             headers: {
               "Content-Type": "application/json",
@@ -133,7 +133,7 @@ client.on("ready", async () => {
       }
     } else if (useroption[userId] == "consult_demand") {
       const response = await fetch(
-        "https://demadsapi-8lv3p.ondigitalocean.app/demands"
+        "https://bot-ip-contro.vercel.app/demands"
       );
 
       const demands = await response.json();
@@ -161,7 +161,7 @@ client.on("ready", async () => {
         useroption[userId] = "main_menu";
       } else {
         await fetch(
-          `https://demadsapi-8lv3p.ondigitalocean.app/demands/${message.body}`,
+          `https://bot-ip-contro.vercel.app/demands/${message.body}`,
           {
             method: "PATCH",
             headers: {
