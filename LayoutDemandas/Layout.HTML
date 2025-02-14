@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demandas Recebidas</title>
+    <link rel="stylesheet" href="Layout.CSS">
+    <script>
+        function arquivarDemanda(id) {
+            document.getElementById(id).remove();
+            alert("Demanda arquivada com sucesso!");
+        }
+
+        function excluirDemanda(id) {
+            document.getElementById(id).remove();
+            alert("Demanda excluída com sucesso!");
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <h1>📌 Demandas</h1>
+            <nav>
+                <a href="#">Home</a>
+                <a href="#">Sobre</a>
+                <a href="#">Contato</a>
+            </nav>
+        </div>
+    </header>
+    <section class="hero">
+        <h2>Gerencie suas demandas de forma eficiente</h2>
+        <p>Veja suas demandas pendentes e tome ações rapidamente.</p>
+    </section>
+    <div class="container">
+        <h2>Demandas Recebidas</h2>
+        <div id="demandas">
+            <div class="demanda" id="demanda1">
+                <h3>Atualizar sistema</h3>
+                <p>📅 2025-02-12</p>
+                <button onclick="arquivarDemanda('demanda1')">📂 Arquivar</button>
+                <button onclick="excluirDemanda('demanda1')">🗑️ Excluir</button>
+            </div>
+            <div class="demanda" id="demanda2">
+                <h3>Corrigir erro na API</h3>
+                <p>📅 2025-02-11</p>
+                <button onclick="arquivarDemanda('demanda2')">📂 Arquivar</button>
+                <button onclick="excluirDemanda('demanda2')">🗑️ Excluir</button>
+            </div>
+            <div class="demanda" id="demanda3">
+                <h3>Implementar novo design</h3>
+                <p>📅 2025-02-10</p>
+                <button onclick="arquivarDemanda('demanda3')">📂 Arquivar</button>
+                <button onclick="excluirDemanda('demanda3')">🗑️ Excluir</button>
+            </div>
+            <button id="addDemanda">➕ Adicionar Nova Demanda</button>
+
+        </div>
+        <script src="Layout.JS" defer></script>
+
+    </div>
+</body>
+</html>

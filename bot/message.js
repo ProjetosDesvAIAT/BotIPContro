@@ -106,7 +106,7 @@ client.on("ready", async () => {
           `Sua demanda foi enviada com sucesso!\n\nNome: ${name}\nDemanda: ${demand}\nNúmero: ${number}\n Data: ${date}\nStatus: ${status} \nUnidade: ${unit}\n\n Em breve entraremos em contato!`
         );
         async function sendDatas() {
-          fetch("https://bot-ip-contro.vercel.app/demands", {
+          fetch("https://ipdemandas.vercel.app/", {
             method: "POST",
             headers: {
               "Content-Type": "application/json",
@@ -133,7 +133,7 @@ client.on("ready", async () => {
       }
     } else if (useroption[userId] == "consult_demand") {
       const response = await fetch(
-        "https://bot-ip-contro.vercel.app/demands"
+        "https://ipdemandas.vercel.app/"
       );
 
       const demands = await response.json();
