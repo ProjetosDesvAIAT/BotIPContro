@@ -2,11 +2,16 @@ const { Client, LocalAuth } = require("whatsapp-web.js");
 const qrcode = require("qrcode-terminal");
 const path = require("path");
 
+// Nota: Este código requer Node.js 18+ que possui fetch global.
+// Para versões anteriores, instale node-fetch: npm install node-fetch
+// e adicione: const fetch = require('node-fetch');
+
 // Configurações
 const INACTIVITY_PERIOD = 15 * 60 * 1000; // 15 minutos
 const CLEANUP_INTERVAL = 30 * 60 * 1000; // 30 minutos para limpeza de dados inativos
 const API_BASE_URL = "https://ipdemandas.vercel.app";
 const REQUEST_TIMEOUT = 10000; // 10 segundos timeout para requisições
+const MESSAGE_DELAY = 1500; // Delay entre mensagens sequenciais
 
 // Iniciando o Cliente e mantendo o Login
 console.log("Iniciando...");
@@ -362,7 +367,7 @@ client.on("ready", async () => {
       }
 
       // Pequeno delay para garantir que todas as mensagens foram enviadas
-      await new Promise((resolve) => setTimeout(resolve, 1500));
+      await new Promise((resolve) => setTimeout(resolve, MESSAGE_DELAY));
 
       await message.reply(
         "🔄 Para finalizar uma demanda, digite o número dela.\nDigite *0* para voltar ao menu principal."
@@ -480,7 +485,7 @@ As principais vantagens incluem a personalização de peças, a redução de des
           "👾Manutenção Outras👾\n\nCaso tenha alguma duvida, consulte seu coordenador ou utilize @Meta AI e faça a sua pergunta!!!"
         );
         // Usando await ao invés de setTimeout
-        await new Promise((resolve) => setTimeout(resolve, 1500));
+        await new Promise((resolve) => setTimeout(resolve, MESSAGE_DELAY));
         await sendMainMenu(message, userId);
         break;
 
